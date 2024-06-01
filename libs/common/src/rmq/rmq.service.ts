@@ -16,6 +16,7 @@ export class RmqService {
         persistent: true,
       },
     };
+    //
   }
 
   ack(context: RmqContext) {
